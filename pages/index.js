@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/logo.png";
-import Benner from '../public/benner3.png'
+import Benner from '../public/benner2.jpg'
 
 export default function Home() {
   //const [active, setActive] = useState("");
@@ -121,15 +121,20 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-5/12 min-h-screen w-full  relative">
-          <div className="benner relative bg-gray-50 m-2 rounded h-60 shadow">
+        <div className="w-5/12 min-h-screen w-full relative">
+          <div className="block benner relative bg-gray-50 m-2 rounded h-60 shadow">
             <Image
               className="rounded"
               src={Benner}
               alt="Welcome"
-              objectFit='fill'
-              objectPosition='center bottom'
+              width={500}
+              height={240}
+              layout='responsive'
+              
             />
+          </div>
+          <div className="today-class flex flex-col p-2">
+            <h1 className='text-2xl font-semibold text-yellow-400'>Kelas Hari Ini...</h1>
           </div>
         </div>
         <div className="w-5/12"></div>
