@@ -15,4 +15,7 @@ module.exports = {
     },
   },
   plugins: [],
+  images: {
+    domains: ['hapnan.my.id'],
+  },
 }

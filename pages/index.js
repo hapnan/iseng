@@ -13,7 +13,7 @@ export default function Home() {
           <div className="logo-benner ">
             <div className="flex-col  divide-y-2 divide-gray-400">
               <div className="logo p-2">
-                <Image src={Logo} alt="logo" width={120} height={40} />
+                <Image src={Logo} layout="responsive" alt="logo" width={120} height={40} />
               </div>
               <div className="menu">
                 <div className="flex items-center pt-2 pb-2 pl-5 active:border-r-2 border-blue-600">
