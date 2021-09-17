@@ -134,7 +134,7 @@ export default function Home() {
             />
           </div>
           <div className="today-class flex flex-col p-2">
-            <h1 className='text-2xl font-semibold text-yellow-400'>Kelas Hari Ini...</h1>
+            <h1 className='text-2xl font-semibold text-yellow-400'>Kelas Hari Ini....</h1>
           </div>
         </div>
         <div className="w-5/12"></div>
